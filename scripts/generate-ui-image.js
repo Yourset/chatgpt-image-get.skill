@@ -72,10 +72,6 @@ async function waitForGeneratedImage(page) {
     if (result.images.length > 0) {
       return result.images[result.images.length - 1].src;
     }
-
-    if (!result.creating && attempt >= 1) {
-      throw new Error("The page is no longer generating an image, but no image node was found");
-    }
   }
 
   throw new Error("Timed out while waiting for image generation");

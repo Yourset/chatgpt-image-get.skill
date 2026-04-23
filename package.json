@@ -1,0 +1,13 @@
+{
+  "name": "chatgpt-image-get-skill",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Browser-based ChatGPT image generation skill without API usage.",
+  "scripts": {
+    "probe": "node ./scripts/probe-chatgpt-session.js",
+    "generate": "node ./scripts/generate-ui-image.js"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}

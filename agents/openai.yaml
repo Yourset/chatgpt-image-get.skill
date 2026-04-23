@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatGPT Images Browser V1"
+  short_description: "Reuse a dedicated ChatGPT browser session and validate browser-based image generation without API usage."
+  default_prompt: "Use $chatgpt-images-browser-v1 to open the dedicated ChatGPT browser profile, verify the login session, and generate one simple image."
